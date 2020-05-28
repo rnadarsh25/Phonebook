@@ -1,0 +1,79 @@
+
+#all{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(40px, min-content);
+    grid-gap: .1em;
+}
+#all >div{
+    background-color: #686868;
+    padding: 1em;
+}
+.fill_form{
+    grid-column: 2/6;
+}
+.fill_form > .form_heading{
+    margin: 5px;
+    text-align: center;
+    color: #ffc119;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+.fill_form > form > label{
+    font-size: 18px;
+    font-family: 'Raleway',sans-serif;
+    color: white;
+}
+
+.fill_box{
+    width: 100%;
+    height:35px;
+    line-height: 35px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    border: transparent;
+    margin: 10px 0px;
+}
+.fill_box2{
+    width: 90%;
+    height:35px;
+    line-height: 35px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    border: transparent;
+    margin: 10px 0px;
+}
+.add_btn{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    border: transparent;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    background-color: #ffc119;
+    color: white;
+}
+.add_btn:hover{
+    cursor: pointer;
+}
+
+.fill_btn{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    background-color: #ffc119;
+    color: white;
+    outline: none;
+    border: transparent;
+}
+.fill_btn:hover{
+    cursor: pointer;
+}
