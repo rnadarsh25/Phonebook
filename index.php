@@ -14,7 +14,7 @@
         </div>
             <?php
 
-            $per_page = 3;
+            $per_page = 4;
                             
             if(isset($_GET['page'])){
                 
